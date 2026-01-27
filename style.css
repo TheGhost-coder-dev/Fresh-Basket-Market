@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.primary-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  background-color: #16a34a;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+.logo-wrapper {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #e5e7eb;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #6b7280;
+}
+
+.logo-icon {
+  color: #16a34a;
+  font-size: 30px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-basis: 50%;
+}
+
+.hero-text-tag {
+  background-color: #e5e7eb;
+  color: #6b7280;
+  width: fit-content;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+.hero-heading {
+  font-size: 50px;
+}
+
+.hero-paragraph {
+  color: #4b5563;
+}
+
+.hero-lists {
+  list-style: none;
+  color: #4b5563;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero-list i {
+  color: #16a34a;
+}
+
+.outlined-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 7px;
+  border: 1px solid #e5e7eb;
+}
+
+.hero-btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.how-it-works {
+  background-color: #e0f2f1;
+  padding: 50px 20px;
+}
+
+.how-it-works-title {
+  text-align: center;
+}
+
+.how-it-works-title h3 {
+  font-size: 32px;
+  font-weight: 500px;
+}
+
+.how-it-works-title p {
+  color: #4b5563;
+}
+
+.how-it-works-cards-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.how-it-works-cards {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 20px;
+}
+.how-it-works-cards h4 {
+  font-weight: 500px;
+  font-size: 20px;
+}
+.card-icon {
+  display: flex;
+  background-color: #e0f2f1;
+  width: 32px;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #16a34a;
+}
+
+.everything-you-need {
+  padding: 50px 20px;
+}
+
+.everything-you-need-title {
+  text-align: center;
+}
+
+.everything-you-need-title h3 {
+  font-size: 32px;
+  font-weight: 500px;
+}
+
+.everything-you-need-title p {
+  color: #4b5563;
+}
+
+.everything-you-need-title-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.everything-you-need-card {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.everything-you-need-card h4 {
+  font-weight: 500px;
+  font-size: 20px;
+}
+
+.everything-you-need-card p {
+  color: #4b5563;
+}
+
+.everything-you-need-card li {
+  color: #4b5563;
+  list-style: none;
+}
+
+.simplify-your-shop {
+  background-color: #e0f2f1;
+  padding: 50px 20px;
+}
+
+.simplify-your-shop-container {
+  color: #16a34a;
+}
+
+.simplify-your-shop-title {
+  text-align: center;
+}
+
+.simplify-your-shop-content {
+  text-align: center;
+}
+
+.simplify-your-shop-link {
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  padding: 10px 20px;
+}
